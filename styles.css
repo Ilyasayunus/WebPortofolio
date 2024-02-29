@@ -109,9 +109,11 @@ nav ul {
         z-index: -1;
         transform: translatex(100%);
         transition: all 1s;
+        opacity: 0;
     }   
     
     nav ul.slide{
+        opacity: 1;
         transform: translatex(0);
     }
     }
